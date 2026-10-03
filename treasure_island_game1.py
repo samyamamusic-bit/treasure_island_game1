@@ -1,14 +1,11 @@
-# treasure_island_game1
-In this game you can have a great adventure going through your choices! Have fun!!
-
 print(r'''
 *******************************************************************************
           |                   |                  |                     |
  _________|________________.=""_;=.______________|_____________________|_______
-|                   |  ,-"_,=""     `"=.|                  |
+|                   |  ,-"_,=""     `"=. |                  |
 |___________________|__"=._o`"-._        `"=.______________|___________________
           |                `"=._o`"=._      _`"=._                     |
- _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+ _________|_____________________:=._o "=. _ .-="'"=.__________________|_______
 |                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
 |___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
           |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
@@ -25,11 +22,11 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
-choice1 = input('You\'re on a crossroad, where do you want to go?' 
-                'Type "right" or "left"".\n'). lower()
+choice1 = input('You\'re on a crossroad, where do you want to go?'
+                'Type "right" or "left"".\n').lower()
 
 if choice1 == "left":
-    print(r'''"                                                 ____
+    print(r'''"                                     ____
                                          v        _(    )
         _ ^ _                          v         (___(__)
        '_\V/ `
@@ -38,33 +35,32 @@ if choice1 == "left":
           X             -HELP!
           X                                                 .
           X        \O/                                      |\
-          X.a##a.   M                                       |_\
+          X.a##a.   M                                       |_|\
        .aa########a.>>                                    __|__
     .a################aa.                                 \   /
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ''')
 
-    choice2 = input('You\'ve come to a lake.'
-                    'There is an island in the middle of the lake.'
-                    'Type "wait" to wait for a boat which can pass each 3 hours'
+    choice2 = input('You\'ve come to a lake.\n'
+                    'There is an island in the middle of the lake.\n'
+                    'Type "wait" to wait for a boat which can pass each 3 hours.\n'
                     'or "swim" to swim across and meet adorable marines animals.\n').lower()
 
     if choice2 == "wait":
-        choice3 = input("You arrived at the Island unharmed."
-              "There's a house with 3 doors. "
-              "One red, one yellow and one Blue?"
+        choice3 = input("You arrived at the Island unharmed.\n"
+              "There's a house with 3 doors.\n "
+              "One red, one yellow and one Blue.\n"
               "Which one do you choose?\n").lower()
 
         if choice3 == "red":
-            print("YOU WIN THE TREASURE!")
+            print("YOU WON THE TREASURE!")
             print(r'''
                     _________          _________          _________          _________
                  _ /_|_____|_\ _    _ /_|_____|_\ _    _ /_|_____|_\ _    _ /_|_____|_\ _
                    '. \   / .'        '. \   / .'        '. \   / .'        '. \   / .'
                      '.\ /.'            '.\ /.'            '.\ /.'            '.\ /.'
-                       '.'                '.'                '.'                '.' 
+                       '.'                '.'                '.'                '.'
 ''')
-
 
         elif choice3 == "yellow":
             print("You're attacked by a dragons. GAME OVER!!")
@@ -81,7 +77,7 @@ if choice1 == "left":
                                       `        { {                                     __  /  ,`/   ,`,;
                                             /   \ \                                 _,`, `{  `,{   `,`;`
                                            {     } }       /~\         .-:::-.     (--,   ;\ `,}  `,`;
-                                            \\._./ /      /` , \      ,:::::::::,     `~;   \},/  `,`;     ,-=-
+                                            \\._./ /      /` , \      ,:::::::::,     `~;   \},/  `,`;     ,=-
                                              `-..-`      /. `  .\_   ;:::::::::::;  __,{     `/  `,`;     {
                                                         / , ~ . ^ `~`\:::::::::::<<~>-,,`,    `-,  ``,_    }
                                                      /~~ . `  . ~  , .`~~\:::::::;    _-~  ;__,        `,-`
@@ -95,7 +91,6 @@ if choice1 == "left":
             ''')
         elif choice3 == "blue":
                 print("You're eaten by beats. GAME OVER")
-
 
     if choice2 == "swim":
         print("You're attacked by a shark. GAME OVER!")
@@ -114,11 +109,11 @@ if choice1 == "left":
 
 if choice1 == "right":
     print(r'''
-    
+
       <=======]}======
     --.   /|
    _\"/_.'/
- .'._._,.'
+ .'._._,. '
  :/ \{}/
 (L  /--',----._
     |          \\
@@ -126,6 +121,6 @@ if choice1 == "right":
 ... \\, ||    \|
      \/ ||    ||
 
-    
+
     ''')
     print("You've found a Centaur. GAME OVER!!")
